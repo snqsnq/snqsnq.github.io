@@ -1,13 +1,12 @@
+/*test message*/
 
 body {
     background-color: lightyellow;
     font-size: medium;
     font-family:sans-serif;
-    border-top: .5px solid black; 
-    border-right: .5px solid black; 
-    border-bottom: .5px solid black; 
-    border-left: .5px solid black;
-    display: flex;
+    border-style: solid;
+    border-width: 1px;
+    display: flex; 
     flex-direction: row;
     text-overflow:visible;
     text-emphasis: wrap; 
@@ -40,7 +39,6 @@ body {
     background-color: black;
     color: orange;
     text-align: center;
-    width:100%;
     height: 40px;
     font-size: 30px; 
     padding-top: 8px;
@@ -48,7 +46,6 @@ body {
   }
 
   .contact {
-    width: 100%;
     height: auto;
     text-align: left;
     margin-top: 20px;
@@ -60,7 +57,6 @@ body {
   }
   
   .about {
-    width: 100%;
     height: 39%;
     text-align: justify;
   }
@@ -71,9 +67,8 @@ body {
     
   .hobbies {
     margin: 0px;
-    width: 100%;
     text-align: center;
-    height: auto;
+    height: 15%;
   }
 
  /*This is the RIGHT side of the page*/
@@ -88,31 +83,12 @@ body {
     font-size: xx-large;
     color: orange;
     text-align: left;
-    width: 100%;
-    height: 100%;
     padding-top: 50px;
     padding-bottom: 50px;
     text-shadow: 1px 1px rgb(232, 233, 224);
   }
  
-  .education{
-    width: 100%;
-    height: 100%;
-  }
-   
-  .experience{
-    width: 100%;
-    height: 100%;
-  } 
 
-  .reference1{
-    display: flex;
-    flex-direction: row;
-  }
-
-  .reference-item{
-    width: 50%;
-  }
  
   .icon{
     display: inline-block;
@@ -185,9 +161,16 @@ body {
     text-align: justify;
     margin-right: 50px;
    }
-  .li-item-heading {
-    margin: 0px;
-  }  
+
+   
+  .reference1{
+    display: flex;
+    flex-direction: row;
+  }
+
+  .reference-item{
+    width: 50%;
+  }
 
  
 /* <!--This is the MEDIA QUERY--> */ 
