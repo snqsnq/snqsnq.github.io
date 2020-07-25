@@ -1,4 +1,4 @@
-/*test message*/
+
 
 body {
     background-color: lightyellow;
@@ -61,8 +61,8 @@ body {
     text-align: justify;
   }
   .text-about{
-    padding-left: 45px;
-    padding-right: 45px; 
+    margin-left: 45px;
+    margin-right: 45px; 
   }
     
   .hobbies {
