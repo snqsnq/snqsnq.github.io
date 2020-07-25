@@ -1,4 +1,9 @@
-
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
 
 body {
     background-color: lightyellow;
@@ -76,7 +81,7 @@ body {
   .main {
     width: 70%;
     height: 100%;
-    margin-left: 50px;
+    padding-left: 50px;
   }
 
   .name{
@@ -175,7 +180,7 @@ body {
  
 /* <!--This is the MEDIA QUERY--> */ 
 
-  @media screen and (max-width: 550px) {
+  @media screen and (max-width: 600px) {
     body {
       flex-direction: column;
     } 
@@ -187,5 +192,7 @@ body {
     }
   
   }
+
+
 
 
